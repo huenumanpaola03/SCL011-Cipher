@@ -1,1 +1,184 @@
 /* Acá va tu código */
+
+.principal {
+    background-image: url(https://i.ibb.co/RPphnR7/3ce2bfdc-84da-4599-ac6d-b1b49830cd6c.jpg);
+           width: 100%;
+       position: relative;
+       height: 650px;
+       background-attachment: fixed;
+       background-position: center;
+       background-size: cover;
+}
+
+.logo{
+    clip-path: circle(50% at 50% 50%);
+
+
+}
+.primera{
+    margin: 40px;
+    margin-top: 150px;
+    border: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.input{
+    padding: 15px;
+    outline-style: double;
+    text-align: center;
+    font-size: 15px; 
+}
+
+
+a {
+    text-decoration: none;
+     background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 2%;
+  border-radius: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin: 20px;   
+}
+
+.father{
+    margin: 40px;
+    margin-top: 150px;
+    border: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    height: 100px;
+    margin: -20px;
+    padding: 10px;
+}
+.textmenu{
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+   
+}
+
+.title{
+    font-size: 45px;
+    margin-top: 2px;
+}
+.traduccion{
+    margin-top: -5%;
+    font-size: 25px;
+}
+
+.logomenu{
+    margin-top: 10px;
+   clip-path: circle(50% at 50% 50%);
+   width: 90px;
+   height: 90px;
+   margin-left: 30%;
+  
+}
+
+.addtext{
+    display: flex;
+    flex-direction: center;
+}
+
+.text1 {
+    padding: 15px;
+    outline-style: double;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+.title2{  
+    font-size: 40px;
+}
+.text3{
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 100px;
+   
+}
+.boxascii{
+     display: flex;
+    justify-content: space-around;
+}
+
+.textarea{
+    outline-style: double;
+    height: 250px;
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.key {
+    outline-style: double;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.btncd {
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  margin-top: -150px;
+  border: 30px;
+ padding-left: 510px;
+ 
+  
+}
+#decode{
+    margin-top: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+#code{
+    margin-top: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+
+.copy{
+    display: flex;
+    flex-direction: row;
+    padding-left: 870px;
+    margin-top: 60px;
+    
+}
+
+.clean{
+    margin-top: -10px;
+}
+
+#copiar{
+    margin-top: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+#clean{
+    margin-top: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
